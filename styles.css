@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+    background-color: pink;
+    font-family: 'Verdana', 'Hiragino Sans', 'Meiryo', sans-serif; /* font-familyの位置を修正 */
+}
+
+h1 {
+    font-size: 36px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 6px 0;
+    margin: 20px auto;
+    width: 500px;
+    text-align: center;
+}
+p,ul{
+    text-align: center;
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 50%;
+}
+p{
+    background-color: aqua;
+    display: block;
+}
+ul{
+    width: 300px;
+    margin: 0 auto;
+}
+li{
+    margin-bottom: 20px;
+}
+a{
+    background-color: azure;
+    display: block;
+    padding: 20px 0;
+    border-radius: 4px;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
